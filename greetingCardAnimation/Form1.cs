@@ -30,7 +30,6 @@ namespace greetingCardAnimation
         SolidBrush redBrush = new SolidBrush(Color.Red);
         SolidBrush blueBrush = new SolidBrush(Color.Blue);
 
-
         //fonts
         Font cardFont = new Font("Arial", 12, FontStyle.Bold);
         Font christmansFont = new Font("Arial", 16, FontStyle.Bold);
@@ -56,127 +55,125 @@ namespace greetingCardAnimation
             //the following is all the code that makes the black box move and do its thing
 
             //this moves it right
-            for (int i = 10; i < 400; i++)
-            {
-                MoveTextRectangle(i, 60, "Hey");
-            }
-            Thread.Sleep(realFastDelay);
+            //for (int i = 10; i < 400; i++)
+            //{
+            //    MoveTextRectangle(i, 60, "Hey");
+            //}
+            //Thread.Sleep(realFastDelay);
 
-            //this moves left again
-            for (int i = 400; i > 10; i--)
-            {
-                MoveTextRectangle(i, 60, "Hi");
-            }
-            Thread.Sleep(fastDelay);
-            //this moves down
-            for (int i = 60; i < 200; i++)
-            {
-                MoveTextRectangle(20, i, "Hello, ");
-            }
-            Thread.Sleep(fastDelay);
+            ////this moves left again
+            //for (int i = 400; i > 10; i--)
+            //{
+            //    MoveTextRectangle(i, 60, "Hi");
+            //}
+            //Thread.Sleep(fastDelay);
+            ////this moves down
+            //for (int i = 60; i < 200; i++)
+            //{
+            //    MoveTextRectangle(20, i, "Hello, ");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //this moves right
-            for (int i = 10; i < 400; i++)
-            {
-                MoveTextRectangle(i, 200, "I");
-            }
-            Thread.Sleep(fastDelay);
+            ////this moves right
+            //for (int i = 10; i < 400; i++)
+            //{
+            //    MoveTextRectangle(i, 200, "I");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //this moves back up
-            for (int i = 200; i > 60; i--)
-            {
-                MoveTextRectangle(400, i, "greet");
-            }
-            Thread.Sleep(fastDelay);
+            ////this moves back up
+            //for (int i = 200; i > 60; i--)
+            //{
+            //    MoveTextRectangle(400, i, "greet");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //moves left
-            for (int i = 400; i > 10; i--)
-            {
-                MoveTextRectangle(i, 60, "you,");
-            }
-            Thread.Sleep(fastDelay);
+            ////moves left
+            //for (int i = 400; i > 10; i--)
+            //{
+            //    MoveTextRectangle(i, 60, "you,");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //moves down
-            for (int i = 60; i < 200; i++)
-            {
-                MoveTextRectangle(20, i, "human.");
-            }
-            Thread.Sleep(longDelay);
+            ////moves down
+            //for (int i = 60; i < 200; i++)
+            //{
+            //    MoveTextRectangle(20, i, "human.");
+            //}
+            //Thread.Sleep(longDelay);
 
-            //this moves right
-            for (int i = 10; i < 400; i++)
-            {
-                MoveTextRectangle(i, 200, "Do");
-            }
-            Thread.Sleep(fastDelay);
+            ////this moves right
+            //for (int i = 10; i < 400; i++)
+            //{
+            //    MoveTextRectangle(i, 200, "Do");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //moves left
-            for (int i = 400; i > 10; i--)
-            {
-                MoveTextRectangle(i, 60, "you,");
-            }
-            Thread.Sleep(fastDelay);
+            ////moves left
+            //for (int i = 400; i > 10; i--)
+            //{
+            //    MoveTextRectangle(i, 60, "you,");
+            //}
+            //Thread.Sleep(fastDelay);
 
-            //this moves up
-            for (int i = 200; i > 60; i--)
-            {
-                MoveTextRectangle(400, i, "like");
-            }
-            Thread.Sleep(avgDelay);
+            ////this moves up
+            //for (int i = 200; i > 60; i--)
+            //{
+            //    MoveTextRectangle(400, i, "like");
+            //}
+            //Thread.Sleep(avgDelay);
 
-            //this moves right
-            for (int i = 10; i < 400; i++)
-            {
-                MoveTextRectangle(i, 200, "Magic");
-            }
-            Thread.Sleep(avgDelay);
+            ////this moves right
+            //for (int i = 10; i < 400; i++)
+            //{
+            //    MoveTextRectangle(i, 200, "Magic");
+            //}
+            //Thread.Sleep(avgDelay);
 
-            //moves down
-            for (int i = 60; i < 200; i++)
-            {
-                MoveTextRectangle(20, i, "???");
-            }
-            Thread.Sleep(longDelay);
+            ////moves down
+            //for (int i = 60; i < 200; i++)
+            //{
+            //    MoveTextRectangle(20, i, "???");
+            //}
+            //Thread.Sleep(longDelay);
 
-            //move from left to right
-            for (int i = 10; i < 400; i++)
-            {
-                MoveTextRectangle(i, 200, "???");
-            }
+            ////move from left to right
+            //for (int i = 10; i < 400; i++)
+            //{
+            //    MoveTextRectangle(i, 200, "???");
+            //}
 
-            //moves right to left
-            for (int i = 400; i > 10; i--)
-            {
-                MoveTextRectangle(i, 60, "you,");
-            }
+            ////moves right to left
+            //for (int i = 400; i > 10; i--)
+            //{
+            //    MoveTextRectangle(i, 60, "you,");
+            //}
 
-            //move from left to middle
-            for (int i = 10; i < 200; i++)
-            {
-                MoveTextRectangle(i, 200, "Then you'll love");
-            }
-            Thread.Sleep(avgDelay);
+            ////move from left to middle
+            //for (int i = 10; i < 200; i++)
+            //{
+            //    MoveTextRectangle(i, 200, "Then you'll love");
+            //}
+            //Thread.Sleep(avgDelay);
 
-            //this moves up
-            for (int i = 200; i > 60; i--)
-            {
-                MoveTextRectangle(200, i, "The magic of");
-            }
-            Thread.Sleep(avgDelay);
+            ////this moves up
+            //for (int i = 200; i > 60; i--)
+            //{
+            //    MoveTextRectangle(200, i, "The magic of");
+            //}
+            //Thread.Sleep(avgDelay);
 
-            //moves down
-            for (int i = 60; i < 130; i++)
-            {
-                MoveTextRectangle(200, i, "CHRISTMAS!!!");
-            }
-
-
+            ////moves down
+            //for (int i = 60; i < 130; i++)
+            //{
+            //    MoveTextRectangle(200, i, "CHRISTMAS!!!");
+            //}
 
 
 
             //sound Declaration
             SoundPlayer MerryChristmas = new SoundPlayer(Properties.Resources.Merry_Christmas_Sound);
-        
+            SoundPlayer Ho_Ho_Ho = new SoundPlayer(Properties.Resources.Ho_Ho_Ho);
 
 
             //some variables for the christmas animation
@@ -251,6 +248,8 @@ namespace greetingCardAnimation
                     
                 }
             }
+            Ho_Ho_Ho.Play();
+            Thread.Sleep(3000);
             this.Close();
 
         }
